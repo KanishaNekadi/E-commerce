@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  height: 80px;
+}
+.navbar-brand{
+  font-size: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.collapse{
+  font-size: 22px;
+  margin-left: 250px;
+}
+.nav-item{
+  margin-left: 15px;
+}
+.navbar-text{
+  width: 105px;
+  font-size: 25px;
+  margin-right: 50px;
+  text-align: center;
+  border: none;
+  background-color: skyblue;
+  border-radius: 0.8em;
+}
+.navbar-text span{
+ margin-right: 0px;
+  font-size: 25px;
+}
+.heading{
+  font-family: Georgia, serif;
+  text-align: center;
+  padding: 50px;
+  font-size: 55px;
+}
+.UL{
+  background-color: rgb(255, 204, 0);
+  height: 5px;
+  width: 150px;
+  margin-left: 720px;
+  margin-top: -10px;
+}
+.card-list{
+  margin: 0px 100px 0px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.card{
+  padding: 20px 10px 30px 10px;
+  width: 18rem;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top{
+  padding: 20px;
+  height: 200px;
+  width: 100%;
+}
+.card-body{
+  height: 300px;
+}
+.card-title{
+  margin-bottom: 20px;
+  color: #999999;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+          line-clamp: 1; 
+  -webkit-box-orient: vertical;
+}
+li{
+  margin: 30px 30px 30px 30px;
+}
+.cart-image{
+  height: 300px;
+  width: 350px;
+}
+.card-price{
+  text-decoration: none;
+  color: black;
+}
+.cart-btn{
+  height: 50px;
+  width: 120px;
+  margin-right: 25px;
+  font-size: 15px;
+  border-radius: 5em;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-btn h4{
+  margin-right: 12px;
+}
+
+.cart-btn h5{
+  font-size: 22px;
+  margin-top: 6px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-btn h5 span{
+  margin-top: 0px;
+  margin-left: -10px;
+  margin-right: -18px;
+} 
+
+.badge{
+  font-size: 25px;
+}
+.img{
+  height: 200px;
+}
+.card-rating{
+  width: 60px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius: 1.5em;
+}
+.rating-sec{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.card-count{
+  margin: 0px 0px 5px 4px;
+}
+.card-delivery{
+  margin-top: 20px;
+  height: 30px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 1.5em;
+}
+.card-img-top:hover {opacity: 0.7};
+
+
+
+
